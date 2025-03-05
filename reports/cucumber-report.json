@@ -1,0 +1,93 @@
+[
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "login;user-login-success",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "User login success",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 699127
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "the user click button login by email",
+            "match": {
+              "location": "features/login/step_definitions/loginStep.js:20"
+            },
+            "result": {
+              "status": "failed",
+              "duration": 10005548994,
+              "error_message": "Error: function timed out, ensure the promise resolves within 10000 milliseconds\n    at Timeout.<anonymous> (/media/Hyera/New Volume/Kerjaan/UI Automation/Lookin/node_modules/@cucumber/cucumber/src/time.ts:52:14)\n    at listOnTimeout (node:internal/timers:569:17)\n    at processTimers (node:internal/timers:512:7)"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "the user input \"pokohix445@operades.com\" and \"Bimopuspa_12\"",
+            "match": {
+              "location": "features/login/step_definitions/loginStep.js:29"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 7,
+            "name": "the user click button enter",
+            "match": {
+              "location": "features/login/step_definitions/loginStep.js:40"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "the user should see the home page with the scroll view",
+            "match": {
+              "location": "features/login/step_definitions/loginStep.js:45"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 582226
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "login",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Login",
+    "tags": [],
+    "uri": "features/login/login.feature"
+  }
+]
